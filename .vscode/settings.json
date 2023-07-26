@@ -1,0 +1,11 @@
+{
+    "sqltools.useNodeRuntime": false,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "ptdb",
+            "database": "${workspaceFolder:Diagnosinator}/Patients_Database.db"
+        }
+    ]
+}
